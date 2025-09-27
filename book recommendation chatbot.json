@@ -1,0 +1,869 @@
+{
+  "intents": [
+    {
+      "intent": "book_recommendations",
+      "examples": [
+        {
+          "text": "Book recommendations for Biographies"
+        },
+        {
+          "text": "Book recommendations for Biography"
+        },
+        {
+          "text": "Book recommendations for Dystopia Fiction"
+        },
+        {
+          "text": "Book recommendations for Fantasy"
+        },
+        {
+          "text": "Book recommendations for Fiction"
+        },
+        {
+          "text": "Book recommendations for Historical Fiction"
+        },
+        {
+          "text": "Book recommendations for Horror"
+        },
+        {
+          "text": "Book recommendations for Kids"
+        },
+        {
+          "text": "Book recommendations for Memoir"
+        },
+        {
+          "text": "Book recommendations for Mystery"
+        },
+        {
+          "text": "Book recommendations for Psychology"
+        },
+        {
+          "text": "Book recommendations for Realistic Fiction"
+        },
+        {
+          "text": "Book recommendations for Science Fiction"
+        },
+        {
+          "text": "Book recommendations for Short Stories"
+        },
+        {
+          "text": "Book recommendations for Young Adult"
+        },
+        {
+          "text": "famous book of all time"
+        },
+        {
+          "text": "Good biography books"
+        },
+        {
+          "text": "Good Dystopia Fiction books"
+        },
+        {
+          "text": "good Fantasy  books"
+        },
+        {
+          "text": "Good Historical Fiction books"
+        },
+        {
+          "text": "Good Horror books"
+        },
+        {
+          "text": "Good Kids books"
+        },
+        {
+          "text": "Good Memoir books"
+        },
+        {
+          "text": "Good Mystery books"
+        },
+        {
+          "text": "Good Psychology books"
+        },
+        {
+          "text": "Good Realistic Fiction books"
+        },
+        {
+          "text": "Good Science Fiction"
+        },
+        {
+          "text": "Good Short Stories books"
+        },
+        {
+          "text": "Good Young Adult books"
+        },
+        {
+          "text": "Recommend good biography based books."
+        },
+        {
+          "text": "Recommend good books for biography"
+        },
+        {
+          "text": "Recommend good books for Dystopia Fiction"
+        },
+        {
+          "text": "Recommend good books for Fantasy"
+        },
+        {
+          "text": "Recommend good books for Historical Fiction"
+        },
+        {
+          "text": "Recommend good books for Horror"
+        },
+        {
+          "text": "Recommend good books for Kids"
+        },
+        {
+          "text": "Recommend good books for Memoir"
+        },
+        {
+          "text": "Recommend good books for Mystery"
+        },
+        {
+          "text": "Recommend good books for Psychology"
+        },
+        {
+          "text": "Recommend good books for Realistic Fiction"
+        },
+        {
+          "text": "Recommend good books for Science Fiction"
+        },
+        {
+          "text": "Recommend good books for Short Stories"
+        },
+        {
+          "text": "Recommend good books for Young Adult"
+        },
+        {
+          "text": "suggest me romance book"
+        },
+        {
+          "text": "suggest me some award winning books"
+        },
+        {
+          "text": "suggest me some novels"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "End_of_conversion",
+      "examples": [
+        {
+          "text": "Appreciate it."
+        },
+        {
+          "text": "Bye"
+        },
+        {
+          "text": "Good Bye"
+        },
+        {
+          "text": "Good Day"
+        },
+        {
+          "text": "Good Night"
+        },
+        {
+          "text": "Got it."
+        },
+        {
+          "text": "Have a nice day ."
+        },
+        {
+          "text": "Nice meeting you."
+        },
+        {
+          "text": "Nice talking to you."
+        },
+        {
+          "text": "Thanks"
+        },
+        {
+          "text": "Thank you"
+        },
+        {
+          "text": "Thanxs"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Greetings",
+      "examples": [
+        {
+          "text": "Bonjour"
+        },
+        {
+          "text": "Good afternoon"
+        },
+        {
+          "text": "Good morning"
+        },
+        {
+          "text": "Good night"
+        },
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "Hey"
+        },
+        {
+          "text": "Hi"
+        },
+        {
+          "text": "Hola"
+        },
+        {
+          "text": "Namaste"
+        },
+        {
+          "text": "Namshakar"
+        },
+        {
+          "text": "Ni hao"
+        },
+        {
+          "text": "yes"
+        },
+        {
+          "text": "Yo"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "book_genre",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "biography",
+          "synonyms": [
+            "autobiography",
+            "biographical",
+            "biographies",
+            "filmography"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "comic",
+          "synonyms": [
+            "fairytale",
+            "hero",
+            "magic",
+            "power",
+            "superhero"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Dystopia",
+          "synonyms": [
+            "dystopian",
+            "dystopic"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "fiction",
+          "synonyms": [
+            "fantasy",
+            "fictions",
+            "imagination",
+            "literary",
+            "novelist",
+            "surreal",
+            "unreal"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Horror",
+          "synonyms": [
+            "fear",
+            "scary",
+            "terror"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Kid",
+          "synonyms": [
+            "baby",
+            "child",
+            "children",
+            "kiddo",
+            "kids",
+            "little",
+            "teenage",
+            "teenager"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "love",
+          "synonyms": [
+            "couple",
+            "relationship",
+            "romance"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Memoir",
+          "synonyms": [
+            "autobiographical",
+            "autobiography",
+            "memoirist",
+            "memoirs",
+            "memory",
+            "nonfiction"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Mystery",
+          "synonyms": [
+            "ambiguity",
+            "enigma",
+            "mystÃ¨re",
+            "mysterious",
+            "puzzle",
+            "riddle",
+            "secret"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Psychology",
+          "synonyms": [
+            "mentality",
+            "philosophy",
+            "psych",
+            "psychiatry",
+            "psychobiology",
+            "psychological",
+            "psychologist",
+            "sociology"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "religious",
+          "synonyms": [
+            "legend",
+            "mythology"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Short Stories",
+          "synonyms": [
+            "articles",
+            "examples",
+            "narratives",
+            "novels",
+            "story",
+            "storytelling",
+            "tales"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "travel",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Young Adult",
+          "synonyms": [
+            "childrens",
+            "interfaith",
+            "lenten",
+            "unitarian"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "webhooks": [
+    {
+      "url": "",
+      "name": "main_webhook",
+      "headers": []
+    }
+  ],
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I didn't understand. You can try rephrasing."
+              },
+              {
+                "text": "Can you reword your statement? I'm not understanding."
+              },
+              {
+                "text": "I didn't get your meaning."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_7_1758806824409",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "book recommendation ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sure "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_4_1758812654226"
+      },
+      "conditions": "@book_genre",
+      "dialog_node": "node_2_1758807858438",
+      "previous_sibling": "node_3_1758806446728"
+    },
+    {
+      "type": "standard",
+      "title": "Greetings by the assistant",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hey there! Looking for your next great read? Tell me what you like!”"
+              },
+              {
+                "text": "Hi! Which type of books are you into?"
+              },
+              {
+                "text": "Hello reader!  Share your interests, and I’ll suggest the perfect book."
+              },
+              {
+                "text": "Hey!  What kind of story are you in the mood for today?"
+              },
+              {
+                "text": "Hi there!  Want me to recommend a book based on your taste?”"
+              },
+              {
+                "text": "Hello! I can help you discover books you’ll love. What genres interest you most?"
+              },
+              {
+                "text": "Hi! Ready to explore your next great read? Share your preferences and I’ll recommend something."
+              },
+              {
+                "text": "Greetings! Tell me a bit about your reading taste, and I’ll suggest the right book for you."
+              },
+              {
+                "text": "Yo!  Want me to recommend a book that fits your vibe?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Greetings",
+      "dialog_node": "node_3_1758806446728",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "title": "Genres",
+      "parent": "node_2_1758807858438",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@book_genre",
+      "dialog_node": "node_4_1758812654226"
+    },
+    {
+      "type": "standard",
+      "title": "end of conversion ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Happy reading!  Thanks for chatting with me."
+              },
+              {
+                "text": "Hope you enjoy the book! Thank you and see you soon."
+              },
+              {
+                "text": "That’s my recommendation! Thanks for stopping by."
+              },
+              {
+                "text": "Thanks for sharing your interests—can’t wait for you to dive into a new story!"
+              },
+              {
+                "text": "Thank you for using me. Enjoy your next read!"
+              },
+              {
+                "text": "Thanks for your time—happy reading ahead"
+              },
+              {
+                "text": "Grateful you stopped by. Wishing you wonderful stories ahead!"
+              },
+              {
+                "text": "Thank you! I’ll be here whenever you need your next recommendation."
+              },
+              {
+                "text": "Enjoy your book—thank you!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#End_of_conversion",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_7_1758806824409",
+      "previous_sibling": "node_2_1758807858438"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here are some famous Dystopian Books 🌪️⚠️\n\n1️⃣ \"1984\" 👁️📖 by George Orwell\n\n2️⃣ \"Brave New World\" 🌍💊 by Aldous Huxley\n\n3️⃣ \"The Hunger Games\" 🏹🔥 by Suzanne Collins\n\n4️⃣ \"Fahrenheit 451\" 🔥📚 by Ray Bradbury\n\n5️⃣ \"The Handmaid’s Tale\" 👩‍🦱⚖️ by Margaret Atwood"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1758812654226",
+      "conditions": "@book_genre:Dystopia",
+      "dialog_node": "response_1_1758814623047",
+      "previous_sibling": "response_4_1758814614441"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here are some famous fiction books : 📚\n\n1️⃣ \"The Diary of a Young Girl\" 📝🌷 by Anne Frank\n\n2️⃣ \"Long Walk to Freedom\" 🚶‍♂️✊ by Nelson Mandela\n\n3️⃣ \"Educated\" 🎓📚 by Tara Westover\n\n4️⃣ \"Becoming\" 👩‍🦱🌟 by Michelle Obama\n\n5️⃣ \"The Glass Castle\" 🏚️💔 by Jeannette Walls"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1758812654226",
+      "conditions": "@book_genre:Memoir",
+      "dialog_node": "response_2_1758814603191",
+      "previous_sibling": "response_7_1758814592258"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here are some famous Travel Books 🌍✈️\n\n1️⃣ \"Eat, Pray, Love\" 🍝🙏💖 by Elizabeth Gilbert\n\n2️⃣ \"Into the Wild\" 🌲🏕️ by Jon Krakauer\n\n3️⃣ \"On the Road\" 🛣️🚐 by Jack Kerouac\n\n4️⃣ \"The Alchemist\" 🐪🌟 by Paulo Coelho\n\n5️⃣ \"Vagabonding\" 🌏🎒 by Rolf Potts"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1758812654226",
+      "conditions": "@book_genre:travel",
+      "dialog_node": "response_2_1758814708562",
+      "previous_sibling": "response_7_1758814689428"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here are some famous Horror Books 👻🩸\n\n1️⃣ \"Dracula\" 🧛‍♂️🦇 by Bram Stoker\n\n2️⃣ \"Frankenstein\" ⚡🧟‍♂️ by Mary Shelley\n\n3️⃣ \"It\" 🎈😱 by Stephen King\n\n4️⃣ \"The Shining\" 🏨🔪 by Stephen King\n\n5️⃣ \"Bird Box\" 👁️🌊 by Josh Malerman"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1758812654226",
+      "conditions": "@book_genre:Horror",
+      "dialog_node": "response_2_1758814842568",
+      "previous_sibling": "response_8_1758814766343"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here are some famous mystery books:\n\n- The Da Vinci Code – Dan Brown\n\n- Gone Girl – Gillian Flynn\n\n- The Girl with the Dragon Tattoo – Stieg Larsson\n\n- Murder on the Orient Express – Agatha Christie\n\n- The Hound of the Baskervilles – Arthur Conan Doyle"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1758812654226",
+      "conditions": "@book_genre:Mystery",
+      "dialog_node": "response_3_1758814035878"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here are some famous Kids’ Books 🧒📚\n\n1️⃣ \"Charlotte’s Web\" 🕷️🐖 by E.B. White\n\n2️⃣ \"Matilda\" 📚✨ by Roald Dahl\n\n3️⃣ \"The Very Hungry Caterpillar\" 🐛🍎 by Eric Carle\n\n4️⃣ \"Where the Wild Things Are\" 👹🌴 by Maurice Sendak\n\n5️⃣ \"Green Eggs and Ham\" 🥚🍖 by Dr. Seuss"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1758812654226",
+      "conditions": "@book_genre:Kid",
+      "dialog_node": "response_3_1758814674340",
+      "previous_sibling": "response_6_1758814661110"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here are some famous Psychology Books 🧠💡\n\n1️⃣ \"Thinking, Fast and Slow\" 🏃‍♂️🧩 by Daniel Kahneman\n\n2️⃣ \"Man’s Search for Meaning\" 🌈💭 by Viktor E. Frankl\n\n3️⃣ \"The Power of Habit\" 🔄✨ by Charles Duhigg\n\n4️⃣ \"Influence: The Psychology of Persuasion\" 🗣️🎯 by Robert Cialdini\n\n5️⃣ \"Blink\" 👁️⚡ by Malcolm Gladwell"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1758812654226",
+      "conditions": "@book_genre:Psychology",
+      "dialog_node": "response_4_1758814614441",
+      "previous_sibling": "response_2_1758814603191"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here are some famous Short Stories  books ✨📜\n\n1️⃣ \"The Complete Short Stories\" ✍️📘 by Ernest Hemingway\n\n2️⃣ \"Dubliners\" 🍀🖊️ by James Joyce\n\n3️⃣ \"Interpreter of Maladies\" 🌏💌 by Jhumpa Lahiri\n\n4️⃣ \"Nine Stories\" 🌌📝 by J.D. Salinger\n\n5️⃣ \"The Lottery and Other Stories\" 🎲🌙 by Shirley Jackson"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1758812654226",
+      "conditions": "@book_genre:(Short Stories)",
+      "dialog_node": "response_4_1758814644423",
+      "previous_sibling": "response_1_1758814623047"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here are some famous Young Adult Books 🧑‍🎓💫\n\n1️⃣ \"Harry Potter Series\" 🧙‍♂️✨ by J.K. Rowling\n\n2️⃣ \"The Hunger Games\" 🏹🔥 by Suzanne Collins\n\n3️⃣ \"Divergent\" 🔱💥 by Veronica Roth\n\n4️⃣ \"Percy Jackson & the Olympians\" ⚡🏛️ by Rick Riordan\n\n5️⃣ \"The Fault in Our Stars\" 💔🌟 by John Green"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1758812654226",
+      "conditions": "@book_genre:(Young Adult)",
+      "dialog_node": "response_6_1758814661110",
+      "previous_sibling": "response_4_1758814644423"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here are some famous Religious Books ⛪🕉️✡️\n\n1️⃣ \"The Bible\" 📖✨ \n\n2️⃣ \"The Quran\" 🌙📜 \n\n3️⃣ \"The Bhagavad Gita\" 🕉️⚡\n\n4️⃣ \"The Tao Te Ching\" 🍃🖊️ by Lao Tzu\n\n5️⃣ \"Mere Christianity\" ✝️💡 by C.S. Lewis"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1758812654226",
+      "conditions": "@book_genre:religious",
+      "dialog_node": "response_6_1758814734050",
+      "previous_sibling": "response_2_1758814708562"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here are some famous fiction books : 📚\n\n1️⃣ \"To Kill a Mockingbird\" 🕊️⚖️ by Harper Lee\n\n2️⃣ \"1984\" 👁️📖 by George Orwell\n\n3️⃣ \"Pride and Prejudice\" 💌🌸 by Jane Austen\n\n4️⃣ \"The Great Gatsby\" 💎🍸 by F. Scott Fitzgerald\n\n5️⃣ \"Harry Potter and the Sorcerer’s Stone\" 🧙‍♂️✨ by J.K. Rowling"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1758812654226",
+      "conditions": "@book_genre:fiction",
+      "dialog_node": "response_7_1758814592258",
+      "previous_sibling": "response_3_1758814035878"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here are some famous Biography Books 👤📖\n\n1️⃣ \"Steve Jobs\" 🍏💡 by Walter Isaacson\n\n2️⃣ \"The Diary of a Young Girl\" 📝🌷 by Anne Frank\n\n3️⃣ \"Long Walk to Freedom\" 🚶‍♂️✊ by Nelson Mandela\n\n4️⃣ \"Becoming\" 👩‍🦱🌟 by Michelle Obama\n\n5️⃣ \"Einstein: His Life and Universe\" 🧪🌌 by Walter Isaacson"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1758812654226",
+      "conditions": "@book_genre:biography",
+      "dialog_node": "response_7_1758814689428",
+      "previous_sibling": "response_3_1758814674340"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here are are  famous Love Books 💌❤️\n\n1️⃣ \"Pride and Prejudice\" 💍🌸 by Jane Austen\n\n2️⃣ \"Romeo and Juliet\" 🌹⚔️ by William Shakespeare\n\n3️⃣ \"Me Before You\" 💔🌟 by Jojo Moyes\n\n4️⃣ \"The Notebook\" 📝💖 by Nicholas Sparks\n\n5️⃣ \"Anna Karenina\" 🎩💔 by Leo Tolstoy"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1758812654226",
+      "conditions": "@book_genre:love",
+      "dialog_node": "response_7_1758814753541",
+      "previous_sibling": "response_6_1758814734050"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here are some famous Comics 🦸‍♂️📚\n\n1️⃣ \"Batman: The Killing Joke\" 🦇🔫 by Alan Moore\n\n2️⃣ \"Watchmen\" ⏰🦸‍♀️ by Alan Moore & Dave Gibbons\n\n3️⃣ \"Spider-Man: Blue\" 🕷️💙 by Jeph Loeb\n\n4️⃣ \"Maus\" 🐭💔 by Art Spiegelman\n\n5️⃣ \"The Sandman\" 🌙✨ by Neil Gaiman"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1758812654226",
+      "conditions": "@book_genre:comic",
+      "dialog_node": "response_8_1758814766343",
+      "previous_sibling": "response_7_1758814753541"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "👋 Hello! I’m your Book Assistant.  \nI can help you find the perfect book.  \nWhat type of story are you in the mood for today?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "nlp": {
+      "model": "latest"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "language": "en",
+  "description": "created for assistant e8c6c835-8e50-4dbe-9090-f4ac319bf6f0",
+  "name": "PagePulse-dialog"
+}
