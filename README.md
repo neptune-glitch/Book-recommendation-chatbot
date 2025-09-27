@@ -23,7 +23,7 @@ It is built using **IBM Watson Assistant**.
 ---
 
 ## 📷 Screenshots
-<img width="813" height="1600" alt="image" src="https://github.com/user-attachments/assets/16a3ae21-7ba1-4419-9f9d-2a2be242244b" />
+<img width="600" height="1200" alt="image" src="https://github.com/user-attachments/assets/16a3ae21-7ba1-4419-9f9d-2a2be242244b" />
 
 
 
